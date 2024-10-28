@@ -17,7 +17,7 @@ def write_question(filename):
     try:
         with open(filename, "a", encoding="utf-8") as file:
             question = input("Введіть питання: ")
-            file.write(f"Питання: {question}\n\n")
+            file.write(f"Питання: {question}\n")
     except:
         print("Сталася помилка під час запису питання.")
 
